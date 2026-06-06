@@ -60,7 +60,7 @@ APPS = [
     },
     {
         "name": "Animal Dictionary",
-        "url": "https://animaldictionary1.streamlit.app/",
+        "url": "https://aniking.streamlit.app/",
         "icon": "🐾",
         "desc": "Explore facts, habitats & stats on animals from across the globe.",
         "tag": "Nature & Science",
