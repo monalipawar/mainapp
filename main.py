@@ -61,6 +61,16 @@ APPS = [
         "glow": "rgba(251,146,60,0.25)",
         "css_class": "card-orange",
     },
+    {
+        "name": "Animal Dictionary",
+        "url": "https://animaldictionary1.streamlit.app/",
+        "icon": "🐾",
+        "desc": "Explore facts, habitats & stats on animals from across the globe.",
+        "tag": "Nature & Science",
+        "color": "#4ade80",
+        "glow": "rgba(74,222,128,0.25)",
+        "css_class": "card-lime",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -159,7 +169,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 }}
 .app-card:hover .card-cta {{ gap: 10px; }}
 
-/* Per-card accent colors (no CSS vars in inline styles) */
+/* Per-card accent colors */
 .card-blue  {{ border-color: rgba(56,189,248,0.15); }}
 .card-blue:hover  {{ border-color: #38bdf8; box-shadow: 0 0 0 1px #38bdf8, 0 20px 60px -10px rgba(56,189,248,0.3), 0 8px 24px rgba(0,0,0,0.4); }}
 .card-blue  .card-tag  {{ color: #38bdf8; }}
@@ -183,6 +193,12 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-orange .card-tag {{ color: #fb923c; }}
 .card-orange .card-cta {{ color: #fb923c; }}
 .card-orange .card-orb {{ background: rgba(251,146,60,0.35); }}
+
+.card-lime {{ border-color: rgba(74,222,128,0.15); }}
+.card-lime:hover {{ border-color: #4ade80; box-shadow: 0 0 0 1px #4ade80, 0 20px 60px -10px rgba(74,222,128,0.3), 0 8px 24px rgba(0,0,0,0.4); }}
+.card-lime .card-tag {{ color: #4ade80; }}
+.card-lime .card-cta {{ color: #4ade80; }}
+.card-lime .card-orb {{ background: rgba(74,222,128,0.35); }}
 
 [data-testid="stSelectbox"] > div > div {{
     background: rgba(15,23,42,0.6) !important;
@@ -227,7 +243,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# CARDS — rendered one by one to avoid f-string conflicts
+# CARDS
 # ═══════════════════════════════════════════════════════════════════════════════
 for app in APPS:
     card_html = (
