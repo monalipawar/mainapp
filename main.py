@@ -76,7 +76,7 @@ APPS = [
         "css_class": "card-pink",
     },
     {
-        "name": "Draw10",
+        "name": "Draw Finder",
         "url": "https://draw10.streamlit.app/",
         "icon": "🎨",
         "desc": "Answer a few fun questions and get a creative drawing challenge made just for you!",
