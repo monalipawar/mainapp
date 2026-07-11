@@ -31,7 +31,7 @@ APPS = [
         "css_class": "card-blue",
     },
     {
-        "name": "SolAI",
+        "name": "Solar AI",
         "url": "https://solai1.streamlit.app/",
         "icon": "🌌",
         "desc": "Explore NASA APOD, ISS tracking, asteroids & more.",
@@ -40,7 +40,7 @@ APPS = [
         "css_class": "card-purple",
     },
     {
-        "name": "NimAI",
+        "name": "Nimbus AI",
         "url": "https://nimai10.streamlit.app/",
         "icon": "🌤️",
         "desc": "AI-powered weather intelligence and smart outfit picks.",
