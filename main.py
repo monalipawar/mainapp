@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -66,6 +65,15 @@ APPS = [
         "tag": "Nature & Science",
         "color": "#4ade80",
         "css_class": "card-lime",
+    },
+    {
+        "name": "Activity Finder",
+        "url": "https://stuff-to-do.streamlit.app/",
+        "icon": "🎈",
+        "desc": "Answer a few fun questions and discover your next kid-friendly adventure!",
+        "tag": "Kids & Fun",
+        "color": "#f472b6",
+        "css_class": "card-pink",
     },
 ]
 
@@ -144,10 +152,10 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
     color: rgba(148,163,184,0.85); font-weight: 300; letter-spacing: 0.04em; margin: 0;
 }}
 
-/* Cards row — all 5 in one line */
+/* Cards row — 6 in two rows of 3 */
 .cards-grid {{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     flex: 0 0 auto;
 }}
@@ -233,6 +241,12 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-lime .card-tag {{ color: #4ade80; }}
 .card-lime .card-cta {{ color: #4ade80; }}
 .card-lime .card-orb {{ background: rgba(74,222,128,0.4); }}
+
+.card-pink {{ border-color: rgba(244,114,182,0.15); }}
+.card-pink:hover {{ border-color: #f472b6; box-shadow: 0 0 0 1px #f472b6, 0 16px 40px -8px rgba(244,114,182,0.3); }}
+.card-pink .card-tag {{ color: #f472b6; }}
+.card-pink .card-cta {{ color: #f472b6; }}
+.card-pink .card-orb {{ background: rgba(244,114,182,0.4); }}
 
 /* Theme selector */
 .theme-row {{
