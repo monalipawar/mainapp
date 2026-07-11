@@ -84,6 +84,15 @@ APPS = [
         "color": "#facc15",
         "css_class": "card-yellow",
     },
+    {
+        "name": "Country Explorer",
+        "url": "https://explorer1.streamlit.app/",
+        "icon": "🌍",
+        "desc": "Discover capitals, flags, facts & stats, then quiz yourself on world geography.",
+        "tag": "Geography",
+        "color": "#22d3ee",
+        "css_class": "card-teal",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -264,6 +273,11 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-yellow:hover {{ border-color:#facc15; box-shadow:0 0 0 1px #facc15,0 16px 40px -8px rgba(250,204,21,.3);}}
 .card-yellow .card-tag,.card-yellow .card-cta{{color:#facc15;}}
 .card-yellow .card-orb{{background:rgba(250,204,21,.4);}}
+
+.card-teal {{ border-color: rgba(34,211,238,0.15); }}
+.card-teal:hover {{ border-color:#22d3ee; box-shadow:0 0 0 1px #22d3ee,0 16px 40px -8px rgba(34,211,238,.3);}}
+.card-teal .card-tag,.card-teal .card-cta{{color:#22d3ee;}}
+.card-teal .card-orb{{background:rgba(34,211,238,.4);}}
 
 /* Theme selector */
 .theme-row {{
