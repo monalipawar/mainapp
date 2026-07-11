@@ -95,7 +95,7 @@ APPS = [
     },
     {
         "name": "CosmicChef",
-        "url": "https://cosmicchef1.streamlit.app/",
+        "url": "https://cooking1.streamlit.app/",
         "icon": "🍳",
         "desc": "Enter ingredients you have on hand and discover recipes to cook tonight.",
         "tag": "Food & Cooking",
@@ -104,7 +104,7 @@ APPS = [
     },
     {
         "name": "NebulaWallet",
-        "url": "https://nebulawallet1.streamlit.app/",
+        "url": "https://wallet1.streamlit.app/",
         "icon": "💰",
         "desc": "Log income & expenses, track spending by category, and hit savings goals.",
         "tag": "Finance",
@@ -113,7 +113,7 @@ APPS = [
     },
     {
         "name": "CosmoMath",
-        "url": "https://cosmomath1.streamlit.app/",
+        "url": "https://math10.streamlit.app/",
         "icon": "🚀",
         "desc": "Blast off across the solar system by solving fun math problems!",
         "tag": "Kids & Learning",
