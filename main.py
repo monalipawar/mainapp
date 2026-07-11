@@ -111,16 +111,7 @@ APPS = [
         "color": "#6ee7ff",
         "css_class": "card-indigo",
     },
-    {
-        "name": "CosmoMath",
-        "url": "https://math10.streamlit.app/",
-        "icon": "🚀",
-        "desc": "Blast off across the solar system by solving fun math problems!",
-        "tag": "Kids & Learning",
-        "color": "#ffd36e",
-        "css_class": "card-gold",
-    },
-]
+    
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # GLOBAL CSS — single viewport, no scroll
