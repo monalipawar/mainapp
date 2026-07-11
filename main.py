@@ -75,6 +75,15 @@ APPS = [
         "color": "#f472b6",
         "css_class": "card-pink",
     },
+    {
+        "name": "Draw10",
+        "url": "https://draw10.streamlit.app/",
+        "icon": "🎨",
+        "desc": "Answer a few fun questions and get a creative drawing challenge made just for you!",
+        "tag": "Creativity",
+        "color": "#facc15",
+        "css_class": "card-yellow",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -155,7 +164,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 /* Cards row — 6 in two rows of 3 */
 .cards-grid {{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     flex: 0 0 auto;
 }}
@@ -247,6 +256,12 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-pink .card-tag {{ color: #f472b6; }}
 .card-pink .card-cta {{ color: #f472b6; }}
 .card-pink .card-orb {{ background: rgba(244,114,182,0.4); }}
+
+
+.card-yellow { border-color: rgba(250,204,21,0.15); }
+.card-yellow:hover { border-color:#facc15; box-shadow:0 0 0 1px #facc15,0 16px 40px -8px rgba(250,204,21,.3);}
+.card-yellow .card-tag,.card-yellow .card-cta{color:#facc15;}
+.card-yellow .card-orb{background:rgba(250,204,21,.4);}
 
 /* Theme selector */
 .theme-row {{
