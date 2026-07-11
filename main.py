@@ -136,7 +136,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 /* Wrapper */
 .launcher-wrap {{
     position: relative; z-index: 1;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,7 +164,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 /* Cards row — 6 in two rows of 3 */
 .cards-grid {{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
     gap: 1rem;
     flex: 0 0 auto;
 }}
@@ -180,6 +180,8 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    min-height:240px;
+    height:100%;
     transition: transform 0.28s cubic-bezier(.22,.68,0,1.2), box-shadow 0.28s ease, border-color 0.28s ease;
 }}
 .app-card:hover {{ transform: translateY(-5px) scale(1.015); }}
@@ -258,10 +260,10 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-pink .card-orb {{ background: rgba(244,114,182,0.4); }}
 
 
-.card-yellow { border-color: rgba(250,204,21,0.15); }
-.card-yellow:hover { border-color:#facc15; box-shadow:0 0 0 1px #facc15,0 16px 40px -8px rgba(250,204,21,.3);}
-.card-yellow .card-tag,.card-yellow .card-cta{color:#facc15;}
-.card-yellow .card-orb{background:rgba(250,204,21,.4);}
+.card-yellow {{ border-color: rgba(250,204,21,0.15); }}
+.card-yellow:hover {{ border-color:#facc15; box-shadow:0 0 0 1px #facc15,0 16px 40px -8px rgba(250,204,21,.3);}}
+.card-yellow .card-tag,.card-yellow .card-cta{{color:#facc15;}}
+.card-yellow .card-orb{{background:rgba(250,204,21,.4);}}
 
 /* Theme selector */
 .theme-row {{
