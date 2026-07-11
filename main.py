@@ -93,6 +93,33 @@ APPS = [
         "color": "#22d3ee",
         "css_class": "card-teal",
     },
+    {
+        "name": "CosmicChef",
+        "url": "https://cosmicchef1.streamlit.app/",
+        "icon": "🍳",
+        "desc": "Enter ingredients you have on hand and discover recipes to cook tonight.",
+        "tag": "Food & Cooking",
+        "color": "#ff8a5c",
+        "css_class": "card-coral",
+    },
+    {
+        "name": "NebulaWallet",
+        "url": "https://nebulawallet1.streamlit.app/",
+        "icon": "💰",
+        "desc": "Log income & expenses, track spending by category, and hit savings goals.",
+        "tag": "Finance",
+        "color": "#6ee7ff",
+        "css_class": "card-indigo",
+    },
+    {
+        "name": "CosmoMath",
+        "url": "https://cosmomath1.streamlit.app/",
+        "icon": "🚀",
+        "desc": "Blast off across the solar system by solving fun math problems!",
+        "tag": "Kids & Learning",
+        "color": "#ffd36e",
+        "css_class": "card-gold",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -170,7 +197,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
     color: rgba(148,163,184,0.85); font-weight: 300; letter-spacing: 0.04em; margin: 0;
 }}
 
-/* Cards row — 6 in two rows of 3 */
+/* Cards row */
 .cards-grid {{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
@@ -278,6 +305,21 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-teal:hover {{ border-color:#22d3ee; box-shadow:0 0 0 1px #22d3ee,0 16px 40px -8px rgba(34,211,238,.3);}}
 .card-teal .card-tag,.card-teal .card-cta{{color:#22d3ee;}}
 .card-teal .card-orb{{background:rgba(34,211,238,.4);}}
+
+.card-coral {{ border-color: rgba(255,138,92,0.15); }}
+.card-coral:hover {{ border-color:#ff8a5c; box-shadow:0 0 0 1px #ff8a5c,0 16px 40px -8px rgba(255,138,92,.3);}}
+.card-coral .card-tag,.card-coral .card-cta{{color:#ff8a5c;}}
+.card-coral .card-orb{{background:rgba(255,138,92,.4);}}
+
+.card-indigo {{ border-color: rgba(110,231,255,0.15); }}
+.card-indigo:hover {{ border-color:#6ee7ff; box-shadow:0 0 0 1px #6ee7ff,0 16px 40px -8px rgba(110,231,255,.3);}}
+.card-indigo .card-tag,.card-indigo .card-cta{{color:#6ee7ff;}}
+.card-indigo .card-orb{{background:rgba(110,231,255,.4);}}
+
+.card-gold {{ border-color: rgba(255,211,110,0.15); }}
+.card-gold:hover {{ border-color:#ffd36e; box-shadow:0 0 0 1px #ffd36e,0 16px 40px -8px rgba(255,211,110,.3);}}
+.card-gold .card-tag,.card-gold .card-cta{{color:#ffd36e;}}
+.card-gold .card-orb{{background:rgba(255,211,110,.4);}}
 
 /* Theme selector */
 .theme-row {{
