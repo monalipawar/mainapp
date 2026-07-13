@@ -149,7 +149,7 @@ APPS = [
     },
     {
         "name": "VoyagerPlan",
-        "url": "https://triplanner1.streamlit.app/,
+        "url": "https://triplanner1.streamlit.app/",
         "icon": "🧳",
         "desc": "Plan every trip — itinerary, packing list, and budget in one orbit.",
         "tag": "Travel",
@@ -159,7 +159,7 @@ APPS = [
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# GLOBAL CSS — single viewport, no scroll
+# GLOBAL CSS
 # ═══════════════════════════════════════════════════════════════════════════════
 bg = THEMES[st.session_state.selected_theme]
 
@@ -416,7 +416,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 """, unsafe_allow_html=True)
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# RENDER ALL IN ONE HTML BLOCK — no scroll
+# RENDER ALL IN ONE HTML BLOCK
 # ═══════════════════════════════════════════════════════════════════════════════
 html = """
 <div class="launcher-wrap">
