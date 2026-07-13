@@ -113,7 +113,7 @@ APPS = [
     },
     {
         "name": "OrbitMeals",
-        "url": "https://orbitmeals1.streamlit.app/",
+        "url": "https://mealplanner2.streamlit.app/",
         "icon": "🍽️",
         "desc": "Plan your week, generate your shopping list, orbit your kitchen with ease.",
         "tag": "Meal Planning",
@@ -122,7 +122,7 @@ APPS = [
     },
     {
         "name": "OrbitDates",
-        "url": "https://orbitdates1.streamlit.app/",
+        "url": "https://cakes1.streamlit.app/",
         "icon": "🎂",
         "desc": "Never miss a birthday or anniversary again — with gift ideas built in.",
         "tag": "Reminders",
@@ -131,7 +131,7 @@ APPS = [
     },
     {
         "name": "OrbitCountdown",
-        "url": "https://orbitcountdown1.streamlit.app/",
+        "url": "https://events1.streamlit.app/",
         "icon": "🪐",
         "desc": "Track every countdown as a planet orbiting toward its moment.",
         "tag": "Countdowns",
@@ -140,7 +140,7 @@ APPS = [
     },
     {
         "name": "Bibliocosm",
-        "url": "https://bibliocosm1.streamlit.app/",
+        "url": "https://booklink.streamlit.app/",
         "icon": "📚",
         "desc": "Track your reading universe, one book at a time.",
         "tag": "Reading",
@@ -149,7 +149,7 @@ APPS = [
     },
     {
         "name": "VoyagerPlan",
-        "url": "https://voyagerplan1.streamlit.app/",
+        "url": "https://triplanner1.streamlit.app/,
         "icon": "🧳",
         "desc": "Plan every trip — itinerary, packing list, and budget in one orbit.",
         "tag": "Travel",
