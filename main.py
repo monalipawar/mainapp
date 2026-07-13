@@ -114,7 +114,7 @@ APPS = [
     
 ]
 # ═══════════════════════════════════════════════════════════════════════════════
-# GLOBAL CSS — single viewport, no scroll
+# GLOBAL CSS — single viewport, no scroll 
 # ═══════════════════════════════════════════════════════════════════════════════
 bg = THEMES[st.session_state.selected_theme]
 
