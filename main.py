@@ -95,7 +95,7 @@ APPS = [
     },
     {
         "name": "CosmicChef",
-        "url": "https://cooking1.streamlit.app/",
+        "url": "https://cosmicchef1.streamlit.app/",
         "icon": "🍳",
         "desc": "Enter ingredients you have on hand and discover recipes to cook tonight.",
         "tag": "Food & Cooking",
@@ -104,17 +104,26 @@ APPS = [
     },
     {
         "name": "NebulaWallet",
-        "url": "https://wallet1.streamlit.app/",
+        "url": "https://nebulawallet1.streamlit.app/",
         "icon": "💰",
         "desc": "Log income & expenses, track spending by category, and hit savings goals.",
         "tag": "Finance",
         "color": "#6ee7ff",
         "css_class": "card-indigo",
     },
-    
+    {
+        "name": "CosmoMath",
+        "url": "https://cosmomath1.streamlit.app/",
+        "icon": "🚀",
+        "desc": "Blast off across the solar system by solving fun math problems!",
+        "tag": "Kids & Learning",
+        "color": "#ffd36e",
+        "css_class": "card-gold",
+    },
 ]
+
 # ═══════════════════════════════════════════════════════════════════════════════
-# GLOBAL CSS — single viewport, no scroll 
+# GLOBAL CSS — single viewport, no scroll
 # ═══════════════════════════════════════════════════════════════════════════════
 bg = THEMES[st.session_state.selected_theme]
 
@@ -191,11 +200,10 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 /* Cards row */
 .cards-grid {{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
     gap: 1rem;
     flex: 0 0 auto;
 }}
-
 
 .app-card {{
     position: relative;
