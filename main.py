@@ -95,7 +95,7 @@ APPS = [
     },
     {
         "name": "CosmicChef",
-        "url": "https://cosmicchef1.streamlit.app/",
+        "url": "https://cooking1.streamlit.app/",
         "icon": "🍳",
         "desc": "Enter ingredients you have on hand and discover recipes to cook tonight.",
         "tag": "Food & Cooking",
@@ -104,14 +104,58 @@ APPS = [
     },
     {
         "name": "NebulaWallet",
-        "url": "https://nebulawallet1.streamlit.app/",
+        "url": "https://wallet1.streamlit.app/",
         "icon": "💰",
         "desc": "Log income & expenses, track spending by category, and hit savings goals.",
         "tag": "Finance",
         "color": "#6ee7ff",
         "css_class": "card-indigo",
     },
-    
+    {
+        "name": "OrbitMeals",
+        "url": "https://orbitmeals1.streamlit.app/",
+        "icon": "🍽️",
+        "desc": "Plan your week, generate your shopping list, orbit your kitchen with ease.",
+        "tag": "Meal Planning",
+        "color": "#8affc1",
+        "css_class": "card-mint",
+    },
+    {
+        "name": "OrbitDates",
+        "url": "https://orbitdates1.streamlit.app/",
+        "icon": "🎂",
+        "desc": "Never miss a birthday or anniversary again — with gift ideas built in.",
+        "tag": "Reminders",
+        "color": "#ff8ac6",
+        "css_class": "card-rose",
+    },
+    {
+        "name": "OrbitCountdown",
+        "url": "https://orbitcountdown1.streamlit.app/",
+        "icon": "🪐",
+        "desc": "Track every countdown as a planet orbiting toward its moment.",
+        "tag": "Countdowns",
+        "color": "#6ee7ff",
+        "css_class": "card-skyblue",
+    },
+    {
+        "name": "Bibliocosm",
+        "url": "https://bibliocosm1.streamlit.app/",
+        "icon": "📚",
+        "desc": "Track your reading universe, one book at a time.",
+        "tag": "Reading",
+        "color": "#b487ff",
+        "css_class": "card-violet",
+    },
+    {
+        "name": "VoyagerPlan",
+        "url": "https://voyagerplan1.streamlit.app/",
+        "icon": "🧳",
+        "desc": "Plan every trip — itinerary, packing list, and budget in one orbit.",
+        "tag": "Travel",
+        "color": "#38bdf8",
+        "css_class": "card-cerulean",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -125,18 +169,15 @@ st.markdown(f"""
 
 html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
     background: {bg} !important;
-    height: 100vh !important;
-    overflow: hidden !important;
+    min-height: 100vh !important;
     font-family: 'Outfit', sans-serif !important;
 }}
 [data-testid="stAppViewContainer"] > .main {{
     background: transparent !important;
     padding: 0 !important;
-    overflow: hidden !important;
 }}
 [data-testid="stMain"] {{
     padding: 0 !important;
-    overflow: hidden !important;
 }}
 .main .block-container {{
     padding: 0.6rem 1.2rem 0.4rem !important;
@@ -192,7 +233,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 /* Cards row */
 .cards-grid {{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     flex: 0 0 auto;
 }}
@@ -312,6 +353,31 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-gold:hover {{ border-color:#ffd36e; box-shadow:0 0 0 1px #ffd36e,0 16px 40px -8px rgba(255,211,110,.3);}}
 .card-gold .card-tag,.card-gold .card-cta{{color:#ffd36e;}}
 .card-gold .card-orb{{background:rgba(255,211,110,.4);}}
+
+.card-mint {{ border-color: rgba(138,255,193,0.15); }}
+.card-mint:hover {{ border-color:#8affc1; box-shadow:0 0 0 1px #8affc1,0 16px 40px -8px rgba(138,255,193,.3);}}
+.card-mint .card-tag,.card-mint .card-cta{{color:#8affc1;}}
+.card-mint .card-orb{{background:rgba(138,255,193,.4);}}
+
+.card-rose {{ border-color: rgba(255,138,198,0.15); }}
+.card-rose:hover {{ border-color:#ff8ac6; box-shadow:0 0 0 1px #ff8ac6,0 16px 40px -8px rgba(255,138,198,.3);}}
+.card-rose .card-tag,.card-rose .card-cta{{color:#ff8ac6;}}
+.card-rose .card-orb{{background:rgba(255,138,198,.4);}}
+
+.card-skyblue {{ border-color: rgba(110,231,255,0.15); }}
+.card-skyblue:hover {{ border-color:#6ee7ff; box-shadow:0 0 0 1px #6ee7ff,0 16px 40px -8px rgba(110,231,255,.3);}}
+.card-skyblue .card-tag,.card-skyblue .card-cta{{color:#6ee7ff;}}
+.card-skyblue .card-orb{{background:rgba(110,231,255,.4);}}
+
+.card-violet {{ border-color: rgba(180,135,255,0.15); }}
+.card-violet:hover {{ border-color:#b487ff; box-shadow:0 0 0 1px #b487ff,0 16px 40px -8px rgba(180,135,255,.3);}}
+.card-violet .card-tag,.card-violet .card-cta{{color:#b487ff;}}
+.card-violet .card-orb{{background:rgba(180,135,255,.4);}}
+
+.card-cerulean {{ border-color: rgba(56,189,248,0.15); }}
+.card-cerulean:hover {{ border-color:#38bdf8; box-shadow:0 0 0 1px #38bdf8,0 16px 40px -8px rgba(56,189,248,.3);}}
+.card-cerulean .card-tag,.card-cerulean .card-cta{{color:#38bdf8;}}
+.card-cerulean .card-orb{{background:rgba(56,189,248,.4);}}
 
 /* Theme selector */
 .theme-row {{
