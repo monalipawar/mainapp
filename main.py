@@ -189,14 +189,13 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 }}
 
 /* Cards row */
-.cards-grid {
+.cards-grid {{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    width: 100%;
-    align-items: stretch;
-}
+    flex: 0 0 auto;
 }}
+
 
 .app-card {{
     position: relative;
