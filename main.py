@@ -156,6 +156,15 @@ APPS = [
         "color": "#38bdf8",
         "css_class": "card-cerulean",
     },
+    {
+        "name": "AutoNova",
+        "url": "https://cars10.streamlit.app/",
+        "icon": "🏎️",
+        "desc": "Record-holding cars, curated — plus live search on any make & model.",
+        "tag": "Cars & Records",
+        "color": "#ffd36e",
+        "css_class": "card-gold",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
