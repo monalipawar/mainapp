@@ -201,6 +201,15 @@ APPS = [
         "color": "#c4b5fd",
         "css_class": "card-lavender",
     },
+    {
+        "name": "OrbitRecords",
+        "url": "https://worldr.streamlit.app/",
+        "icon": "🏆",
+        "desc": "Explore the extremes of our world — fastest, tallest, deepest, rarest.",
+        "tag": "World Records",
+        "color": "#ffd36e",
+        "css_class": "card-champagne",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -443,6 +452,11 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-lavender:hover {{ border-color:#c4b5fd; box-shadow:0 0 0 1px #c4b5fd,0 16px 40px -8px rgba(196,181,253,.3);}}
 .card-lavender .card-tag,.card-lavender .card-cta{{color:#c4b5fd;}}
 .card-lavender .card-orb{{background:rgba(196,181,253,.4);}}
+
+.card-champagne {{ border-color: rgba(255,215,140,0.15); }}
+.card-champagne:hover {{ border-color:#ffd78c; box-shadow:0 0 0 1px #ffd78c,0 16px 40px -8px rgba(255,215,140,.3);}}
+.card-champagne .card-tag,.card-champagne .card-cta{{color:#ffd78c;}}
+.card-champagne .card-orb{{background:rgba(255,215,140,.4);}}
 
 /* Theme selector */
 .theme-row {{
