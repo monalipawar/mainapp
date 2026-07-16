@@ -165,6 +165,42 @@ APPS = [
         "color": "#ffd36e",
         "css_class": "card-gold",
     },
+    {
+        "name": "VoyagerPlaylist",
+        "url": "https://songs1.streamlit.app/",
+        "icon": "🎧",
+        "desc": "Pick a mood, discover a playlist, drift through the sound.",
+        "tag": "Music",
+        "color": "#fbbf24",
+        "css_class": "card-amber",
+    },
+    {
+        "name": "Stardust",
+        "url": "https://trivia1.streamlit.app/",
+        "icon": "✨",
+        "desc": "A daily fact, plus trivia quizzes from across the universe of knowledge.",
+        "tag": "Trivia & Facts",
+        "color": "#fb7185",
+        "css_class": "card-crimson",
+    },
+    {
+        "name": "GalaxyGoals",
+        "url": "https://goaltracker1.streamlit.app/",
+        "icon": "🌠",
+        "desc": "Chart your goals, break them into milestones, track progress.",
+        "tag": "Goals & Projects",
+        "color": "#2dd4bf",
+        "css_class": "card-emerald",
+    },
+    {
+        "name": "OrbitRules",
+        "url": "https://sportrules.streamlit.app/",
+        "icon": "🏅",
+        "desc": "Quick, clear rulebooks for the world's major sports.",
+        "tag": "Sports",
+        "color": "#c4b5fd",
+        "css_class": "card-lavender",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -387,6 +423,26 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-cerulean:hover {{ border-color:#38bdf8; box-shadow:0 0 0 1px #38bdf8,0 16px 40px -8px rgba(56,189,248,.3);}}
 .card-cerulean .card-tag,.card-cerulean .card-cta{{color:#38bdf8;}}
 .card-cerulean .card-orb{{background:rgba(56,189,248,.4);}}
+
+.card-amber {{ border-color: rgba(251,191,36,0.15); }}
+.card-amber:hover {{ border-color:#fbbf24; box-shadow:0 0 0 1px #fbbf24,0 16px 40px -8px rgba(251,191,36,.3);}}
+.card-amber .card-tag,.card-amber .card-cta{{color:#fbbf24;}}
+.card-amber .card-orb{{background:rgba(251,191,36,.4);}}
+
+.card-crimson {{ border-color: rgba(251,113,133,0.15); }}
+.card-crimson:hover {{ border-color:#fb7185; box-shadow:0 0 0 1px #fb7185,0 16px 40px -8px rgba(251,113,133,.3);}}
+.card-crimson .card-tag,.card-crimson .card-cta{{color:#fb7185;}}
+.card-crimson .card-orb{{background:rgba(251,113,133,.4);}}
+
+.card-emerald {{ border-color: rgba(45,212,191,0.15); }}
+.card-emerald:hover {{ border-color:#2dd4bf; box-shadow:0 0 0 1px #2dd4bf,0 16px 40px -8px rgba(45,212,191,.3);}}
+.card-emerald .card-tag,.card-emerald .card-cta{{color:#2dd4bf;}}
+.card-emerald .card-orb{{background:rgba(45,212,191,.4);}}
+
+.card-lavender {{ border-color: rgba(196,181,253,0.15); }}
+.card-lavender:hover {{ border-color:#c4b5fd; box-shadow:0 0 0 1px #c4b5fd,0 16px 40px -8px rgba(196,181,253,.3);}}
+.card-lavender .card-tag,.card-lavender .card-cta{{color:#c4b5fd;}}
+.card-lavender .card-orb{{background:rgba(196,181,253,.4);}}
 
 /* Theme selector */
 .theme-row {{
