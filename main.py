@@ -221,7 +221,7 @@ APPS = [
     },
     {
         "name": "GiftGenius",
-        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "url": "http://gifts1.streamlit.app/",
         "icon": "🎁",
         "desc": "Tell me about them, and I'll find the perfect gift.",
         "tag": "Gift Ideas",
@@ -230,7 +230,7 @@ APPS = [
     },
     {
         "name": "OrbitJournal",
-        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "url": "https://journal10.streamlit.app/",
         "icon": "📓",
         "desc": "A quiet space to write, reflect, and track how you're really doing.",
         "tag": "Journaling",
@@ -239,7 +239,7 @@ APPS = [
     },
     {
         "name": "OrbitTasks",
-        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "url": "https://tasks10.streamlit.app/",
         "icon": "✅",
         "desc": "Capture it, categorize it, cross it off.",
         "tag": "To-Do",
@@ -248,7 +248,7 @@ APPS = [
     },
     {
         "name": "OrbitGuide",
-        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "url": "https://howto1.streamlit.app/",
         "icon": "🧭",
         "desc": "Clear, step-by-step instructions for everyday problems.",
         "tag": "How-To",
