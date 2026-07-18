@@ -210,6 +210,51 @@ APPS = [
         "color": "#ffd36e",
         "css_class": "card-champagne",
     },
+    {
+        "name": "OrbitChat",
+        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "icon": "💬",
+        "desc": "Your AI companion, powered by Gemini — free, fast, and always in orbit.",
+        "tag": "AI Chat",
+        "color": "#93c5fd",
+        "css_class": "card-periwinkle",
+    },
+    {
+        "name": "GiftGenius",
+        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "icon": "🎁",
+        "desc": "Tell me about them, and I'll find the perfect gift.",
+        "tag": "Gift Ideas",
+        "color": "#fda4af",
+        "css_class": "card-blush",
+    },
+    {
+        "name": "OrbitJournal",
+        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "icon": "📓",
+        "desc": "A quiet space to write, reflect, and track how you're really doing.",
+        "tag": "Journaling",
+        "color": "#c4b5fd",
+        "css_class": "card-orchid",
+    },
+    {
+        "name": "OrbitTasks",
+        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "icon": "✅",
+        "desc": "Capture it, categorize it, cross it off.",
+        "tag": "To-Do",
+        "color": "#86efac",
+        "css_class": "card-jade",
+    },
+    {
+        "name": "OrbitGuide",
+        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "icon": "🧭",
+        "desc": "Clear, step-by-step instructions for everyday problems.",
+        "tag": "How-To",
+        "color": "#7dd3fc",
+        "css_class": "card-cyan",
+    },
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -457,6 +502,31 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {{
 .card-champagne:hover {{ border-color:#ffd78c; box-shadow:0 0 0 1px #ffd78c,0 16px 40px -8px rgba(255,215,140,.3);}}
 .card-champagne .card-tag,.card-champagne .card-cta{{color:#ffd78c;}}
 .card-champagne .card-orb{{background:rgba(255,215,140,.4);}}
+
+.card-periwinkle {{ border-color: rgba(147,197,253,0.15); }}
+.card-periwinkle:hover {{ border-color:#93c5fd; box-shadow:0 0 0 1px #93c5fd,0 16px 40px -8px rgba(147,197,253,.3);}}
+.card-periwinkle .card-tag,.card-periwinkle .card-cta{{color:#93c5fd;}}
+.card-periwinkle .card-orb{{background:rgba(147,197,253,.4);}}
+
+.card-blush {{ border-color: rgba(253,164,175,0.15); }}
+.card-blush:hover {{ border-color:#fda4af; box-shadow:0 0 0 1px #fda4af,0 16px 40px -8px rgba(253,164,175,.3);}}
+.card-blush .card-tag,.card-blush .card-cta{{color:#fda4af;}}
+.card-blush .card-orb{{background:rgba(253,164,175,.4);}}
+
+.card-orchid {{ border-color: rgba(196,181,253,0.15); }}
+.card-orchid:hover {{ border-color:#c4b5fd; box-shadow:0 0 0 1px #c4b5fd,0 16px 40px -8px rgba(196,181,253,.3);}}
+.card-orchid .card-tag,.card-orchid .card-cta{{color:#c4b5fd;}}
+.card-orchid .card-orb{{background:rgba(196,181,253,.4);}}
+
+.card-jade {{ border-color: rgba(134,239,172,0.15); }}
+.card-jade:hover {{ border-color:#86efac; box-shadow:0 0 0 1px #86efac,0 16px 40px -8px rgba(134,239,172,.3);}}
+.card-jade .card-tag,.card-jade .card-cta{{color:#86efac;}}
+.card-jade .card-orb{{background:rgba(134,239,172,.4);}}
+
+.card-cyan {{ border-color: rgba(125,211,252,0.15); }}
+.card-cyan:hover {{ border-color:#7dd3fc; box-shadow:0 0 0 1px #7dd3fc,0 16px 40px -8px rgba(125,211,252,.3);}}
+.card-cyan .card-tag,.card-cyan .card-cta{{color:#7dd3fc;}}
+.card-cyan .card-orb{{background:rgba(125,211,252,.4);}}
 
 /* Theme selector */
 .theme-row {{
