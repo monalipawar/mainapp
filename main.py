@@ -212,7 +212,7 @@ APPS = [
     },
     {
         "name": "OrbitChat",
-        "url": "PASTE_YOUR_DEPLOYED_URL_HERE",
+        "url": "https://chatbot10.streamlit.app/",
         "icon": "💬",
         "desc": "Your AI companion, powered by Gemini — free, fast, and always in orbit.",
         "tag": "AI Chat",
